@@ -31,3 +31,4 @@ private:
 };
 
 std::fstream & operator >> (std::fstream &lhs, ExercisePlan &rhs);
+std::ostream & operator << (std::ostream &lhs, ExercisePlan &rhs);

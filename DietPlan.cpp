@@ -63,3 +63,8 @@ std::fstream & operator >> (std::fstream &lhs, DietPlan &rhs) {
 	rhs.setPlanDate(date);
 	return lhs;
 }
+
+std::ostream & operator << (std::ostream &lhs, DietPlan &rhs) {
+	lhs << "Diet Plan " << rhs.getPlanName() << " for " << rhs.getPlanDate() << ": Goal: " << rhs.getGoalCalories() << " calories";
+	return lhs;
+}

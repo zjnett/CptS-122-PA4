@@ -63,3 +63,8 @@ std::fstream & operator >> (std::fstream &lhs, ExercisePlan &rhs) {
 	rhs.setPlanDate(date);
 	return lhs;
 }
+
+std::ostream & operator << (std::ostream &lhs, ExercisePlan &rhs) {
+	lhs << "Exercise Plan " << rhs.getPlanName() << " for " << rhs.getPlanDate() << ": Goal: " << rhs.getGoalSteps() << " steps";
+	return lhs;
+}

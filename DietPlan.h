@@ -30,3 +30,4 @@ private:
 };
 
 std::fstream & operator >> (std::fstream &lhs, DietPlan &rhs);
+std::ostream & operator << (std::ostream &lhs, DietPlan &rhs);
