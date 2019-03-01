@@ -1,6 +1,9 @@
 #include "PA4.h"
 #include "FitnessAppWrapper.h"
 
+using std::cout;
+using std::endl;
+
 FitnessAppWrapper::FitnessAppWrapper() {
 
 }
@@ -10,7 +13,7 @@ FitnessAppWrapper::~FitnessAppWrapper() {
 }
 
 void FitnessAppWrapper::runApp(void) {
-	std::cout << "Test" << std::endl;
+	cout << "Test" << endl;
 }
 
 void FitnessAppWrapper::loadDailyPlan(std::fstream &fileStream, DietPlan &plan) {

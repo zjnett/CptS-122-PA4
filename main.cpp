@@ -4,4 +4,5 @@
 int main(void) {
 	FitnessAppWrapper appWrapper;
 	appWrapper.runApp();
+	return 0;
 }

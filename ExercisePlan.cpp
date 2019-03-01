@@ -50,3 +50,16 @@ void ExercisePlan::setPlanDate(std::string date) {
 std::string ExercisePlan::getPlanDate() {
 	return planDate;
 }
+
+fstream operator >> (fstream &lhs, ExercisePlan &rhs) {
+	std::string name;
+	lhs >> name;
+	int steps = 0;
+	lhs >> steps;
+	std::string date;
+	lhs >> date;
+	rhs.setPlanName(name);
+	rhs.setGoalSteps(steps);
+	rhs.setPlanDate(date);
+	return lhs;
+}

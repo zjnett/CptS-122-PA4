@@ -50,3 +50,16 @@ void DietPlan::setPlanDate(std::string date) {
 std::string DietPlan::getPlanDate() {
 	return planDate;
 }
+
+fstream operator >> (fstream &lhs, DietPlan &rhs) {
+	std::string name;
+	lhs >> name;
+	int calories = 0;
+	lhs >> calories;
+	std::string date;
+	lhs >> date;
+	rhs.setPlanName(name);
+	rhs.setGoalCalories(calories);
+	rhs.setPlanDate(date);
+	return lhs;
+}
