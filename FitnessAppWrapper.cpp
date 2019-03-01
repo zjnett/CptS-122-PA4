@@ -2,6 +2,7 @@
 #include "FitnessAppWrapper.h"
 
 using std::cout;
+using std::cin;
 using std::endl;
 using std::fstream;
 
@@ -15,12 +16,20 @@ void FitnessAppWrapper::runApp(void) {
 	displayMenu();
 }
 
-void FitnessAppWrapper::loadDailyPlan(std::fstream &fileStream, DietPlan &plan) {
+int FitnessAppWrapper::getInt(void) {
+	int num = 0;
+	cin >> num;
+	return num;
+}
 
+void FitnessAppWrapper::loadDailyPlan(std::fstream &fileStream, DietPlan &plan) {
+	fileStream >> plan;
 }
 
 void FitnessAppWrapper::loadWeeklyPlan(std::fstream &fileStream, DietPlan weeklyPlan[]) {
-
+	for (int i = 0; i < 7; i++) {
+		loadDailyPlan(fileStream, weeklyPlan[i]);
+	}
 }
 
 void FitnessAppWrapper::displayMenu(void) {
