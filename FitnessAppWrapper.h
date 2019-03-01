@@ -1,6 +1,7 @@
 #pragma once
 
 #include "DietPlan.h"
+#include "ExercisePlan.h"
 
 class FitnessAppWrapper {
 public:
