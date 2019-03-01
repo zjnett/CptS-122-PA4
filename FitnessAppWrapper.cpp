@@ -3,6 +3,7 @@
 
 using std::cout;
 using std::endl;
+using std::fstream;
 
 FitnessAppWrapper::FitnessAppWrapper() {
 
@@ -13,7 +14,7 @@ FitnessAppWrapper::~FitnessAppWrapper() {
 }
 
 void FitnessAppWrapper::runApp(void) {
-	cout << "Test" << endl;
+	cout << "hello";
 }
 
 void FitnessAppWrapper::loadDailyPlan(std::fstream &fileStream, DietPlan &plan) {

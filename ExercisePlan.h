@@ -30,4 +30,4 @@ private:
 	std::string planDate;
 };
 
-fstream operator >> (fstream &lhs, ExercisePlan &rhs);
+std::fstream & operator >> (std::fstream &lhs, ExercisePlan &rhs);

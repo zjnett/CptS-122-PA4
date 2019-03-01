@@ -51,7 +51,7 @@ std::string ExercisePlan::getPlanDate() {
 	return planDate;
 }
 
-fstream operator >> (fstream &lhs, ExercisePlan &rhs) {
+std::fstream & operator >> (std::fstream &lhs, ExercisePlan &rhs) {
 	std::string name;
 	lhs >> name;
 	int steps = 0;

@@ -29,4 +29,4 @@ private:
 	std::string planDate;
 };
 
-fstream operator >> (fstream &lhs, DietPlan &rhs);
+std::fstream & operator >> (std::fstream &lhs, DietPlan &rhs);

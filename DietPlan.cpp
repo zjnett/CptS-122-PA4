@@ -51,7 +51,7 @@ std::string DietPlan::getPlanDate() {
 	return planDate;
 }
 
-fstream operator >> (fstream &lhs, DietPlan &rhs) {
+std::fstream & operator >> (std::fstream &lhs, DietPlan &rhs) {
 	std::string name;
 	lhs >> name;
 	int calories = 0;
