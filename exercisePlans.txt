@@ -1,0 +1,28 @@
+Monday Cardio
+2000
+02/25/2019
+
+Tuesday Upper
+600
+02/26/2019
+
+Wednesday Cardio
+2000
+02/27/2019
+
+Thursday Upper
+600
+02/28/2019
+
+Friday Legs
+1000
+03/01/2019
+
+Saturday Rest
+300
+03/02/2019
+
+Sunday Rest
+300
+03/03/2019
+

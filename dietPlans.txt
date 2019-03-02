@@ -1,27 +1,28 @@
-Plan name
-12
-Date in the form mm/dd/yyyy
+Monday
+2100
+02/25/2019
 
-Plan name
-13
-Date in the form mm/dd/yyyy
+Tuesday
+2000
+02/26/2019
 
-Plan name
-14
-Date in the form mm/dd/yyyy
+Wednesday
+1900
+02/27/2019
 
-Plan name
-15
-Date in the form mm/dd/yyyy
+Thursday
+2000
+02/28/2019
 
-Plan name
-17
-Date in the form mm/dd/yyyy
+Friday
+1950
+03/01/2019
 
-Plan name
-1
-Date in the form mm/dd/yyyy
+Saturday
+3000
+03/02/2019
 
-Plan name
-0
-Date in the form mm/dd/yyyy
+Sunday
+1000
+03/03/2019
+
